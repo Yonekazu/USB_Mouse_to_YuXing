@@ -1,0 +1,17 @@
+# 构建输出
+build/
+*.elf
+*.bin
+*.hex
+*.dis
+*.map
+*.obj
+
+# 外部依赖（按 README 说明自行获取）
+pico-sdk/
+pico-pio-usb/
+
+# 编辑器 / 系统
+.vscode/
+.DS_Store
+Thumbs.db
